@@ -13,6 +13,8 @@ algunos ejemplo son:
 - **Listas**
 - **Enlaces**
 - **Imágenes**
+- **subíndice y superíndice**  
+  
 
 
 ## Ejemplos
@@ -59,10 +61,20 @@ varias líneas
 ```  
 * Un elemento en una lista no ordenada
 * Otro elemento en una lista
+- Otro elemento en una lista
++ Otro elemento en una lista
 ```
 ```  
 1. Elemento en una lista numerada y ordenada.
 2. Otro elemento
+```
+Para anidar una lista debes colocar el `-` debajo de la primera letra donde quieres anidarla, como se muestra en el ejemplo
+![imagen de ejemplo](https://docs.github.com/assets/cb-7202/mw-1440/images/help/writing/nested-list-alignment.webp)
+```  
+1. Un elemento en una lista anidada
+   - Otro elemento en una lista
+     - Otro elemento en una lista
+       - Otro elemento en una lista
 ```
 **Enlaces:**  
 ```  
@@ -71,6 +83,15 @@ varias líneas
 **Imágenes:**  
 ```  
 ![Texto alternativo](URL "Título de la imagen")
+```
+**subíndice y superíndice:**  
+``` 
+esto es el indice y
+<sub> esto un subíndice </sub>
+```  
+``` 
+esto es el indice y
+<sup> esto un superíndice </sup>
 ```
 
 
